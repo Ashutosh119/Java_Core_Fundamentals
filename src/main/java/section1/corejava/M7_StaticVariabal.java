@@ -24,7 +24,7 @@ public class M7_StaticVariabal {
         obj2.price =2500;
         Mobile.name= "Smartphone";
 
-        obj1.name= "phone"; // here this will shared details
+        Mobile.name= "phone"; // here this will shared details
 
         obj1.show();
         obj2.show();
