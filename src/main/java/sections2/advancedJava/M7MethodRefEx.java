@@ -8,6 +8,7 @@ public class M7MethodRefEx {
         List<String> names = Arrays.asList("Navin", "Harish dev", "John");
         List<String> uNames = names.stream()
                 .map(String::toUpperCase).toList();
-        System.out.println(uNames);
+        //System.out.println(uNames);
+        uNames.forEach(System.out::println);
     }
 }
